@@ -1,98 +1,37 @@
 ﻿<!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> ハイパーリンクの練習</title>
-<link rel="stylesheet" href="mystyle.css">
-</head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./abc.js"></script>
+    <title>前期末プロジェクト</title>
+</head>
 <body>
-<p>アンカータグの練習です。</p> 
- 
-<a id="def">ここがdefの場所</a> 
-<a href="a.html">相対パスでリンクします</a><br>
-<a href="https://www.josai.ac.jp/education/management/index.html">絶対パスで城西大学経営学部へリンクします。</a><br>
-<a href="mailto:into@yahoo.com">メール(実際には動きません)</a><br>
-<a href="https://www.josai.ac.jp/"><img src="./image/josai.png"alt="城西大学ホームページ"></a>
-<a href="a.html" target="_blank">別画面を開いてリンクします</a><br>
-<a href="a.html" target="_self">リンク元と同じフレームにリンクします</a><br>
-<a href="a.html" target="_parent">ひとつ上の親フレームにリンクします</a><br>
-<a href="a.html" target="_top">フレームをすべて解除してリンクします</a><br>
-<a href="a.html" target="_abc">abcという名前のフレームリンクします</a><br>
-
-
- <!--文字の大きさの練習-->
-<h1>Hello World</h1>
-  <h2>Hello World</h2>
-  <h3>Hello World</h3>
-  <ol>
-      <li>ほげほげ</li>
-      <li>ほにゃらら</li>
-  </ol> 
-<a id="abc">ここがabcの場所</a>
-
-<dl>
-<dt>作者</dt>
-<dd>ジョン</dd>
-<dd>ポール</dd>
-<dd>ジョージ</dd>
-<dd>リンゴ</dd>
-</dl>
-
-<dl>
-<dt lang="ja"><dfn>色</dfn></dt>
-<dt lang="en-US"><dfn>color</dfn></dt>
-<dt lang="en-GB"><dfn>colour</dfn></dt>
-<dd>可視光線の波長の長短によって人が視覚で感じ分けられる色覚・色刺激のこと。</dd>
-</dl>
-<p>ゲームの得点は以下の順序で計算されます。
-</p>
-<dl>
-<dt>金貨を獲得している場合</dt>
-<dd>金貨一枚につき10ポイント加算されます。</dd>
-<dt>銀貨を獲得している場合</dt>
-<dd>銀貨一枚につき1ポイント加算されます。</dd>
-<dt>枚数に関わらず、金貨と銀貨の両方を獲得している場合</dt>
-<dd>ボーナスポイントとして20ポイント加算されます。</dd>
-<dt>それ以外の場合</dt>
-<dd>ポイントは加算されません。</dd>
-</dl>
-
-<a id="abc">ファイルの途中にabcという名前を付けます</a><br>
-<a href="#abc">abcと名前を付けた場所へリンクします</a><br>
-<a href="a.html#def">別のファイルの名前を付けた場所へリンクします</a>
-
-<aside class="ad">
-<h1>広報</h1>
-<a href="https://www.josai.ac.jp/club/jyosisofuto.html">
-<section>
-<h1>城西大学　女子ソフトボール部</h1>
-<p>第26回関東学生ソフトボール選手権大会にて</p>
-<p>インカレ出場権獲得</p>
-</section>
-</a>
-<a href="https://www.josai.ac.jp/news/20180523-02.html">
-<section>
-<h1>城西大学　「陸上競技部」「男子駅伝部」「女子駅伝部」</h1>
-<P>第97回関東学生陸上競技対校選手権大会</P>
-<p>出場選手の壮行会を開催</p>
-</section>
-
-</a>
-</aside>
-
-<nav>
-<ul>
-<li><a href="https://www.josai.ac.jp/club/jyosisofuto.html">女子ソフトボール部</a></li>
-<li><a href="https://www.josai.ac.jp/club/ekiden_hakone.html">男子駅伝部</a></li>
-<li><a href="https://www.josai.ac.jp/club/ekiden_josiekiden.html">女子駅伝部</a></li>
-<li><a>クラブ・サークル活動</a></li>
-</ul>
-</nav>
-
+    <div class="wrapper">
+        <div class="topVisual">
+            <div class="txtBox">
+                <h1 id="ex" onclick="openWin()">Kanei　Watanabe</h1>
+                <p>- 自分について -</p>
+            </div>
+            <nav>
+                <a href="">TOP</a>
+                <a href="./about.html"></a>
+            </nav>
+        </div>
+        <div class="hobby">
+        <section class="hobby-section">
+            <h2>自分の趣味</h2>
+            <p>趣味はサッカーです。観戦も好きですし、もちろんプレーすることも好きです。</p>
+            <h2>好きな食べ物</h2>
+            <p>ラーメン、カレー、スパゲティ</p>
+            <h2>将来の夢</h2>
+            <p>世界旅行</p>
+        </p>
+        </section>
+    </div>
+    </div>
 </body>
 </html>
-
-
-
-
-
